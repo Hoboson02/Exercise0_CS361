@@ -13,8 +13,8 @@
 #     print('\n2021 F1 Drivers\n', '===============', last_name(list_drivers))
 
 
-print("2021 F1 Drivers")
-print("=============== \n")
+print("2021 F1 Drivers - Alphabetical")
+print("============================== \n")
 list_drivers = open("Drivers.txt", "r")
 drivers = list_drivers.read()
 driver_list = drivers.split(',')
@@ -22,6 +22,8 @@ last_name_sort = (sorted(driver_list, key = lambda x: x.split()[-1]))
 driver_number_sort = (sorted(driver_list, key = lambda x: x.split()[1]))
 
 print (last_name_sort, '\n')
+print("2021 F1 Drivers - Driver Number")
+print("============================== \n")
 print (driver_number_sort)
 # sort Drivers.txt by last name
 # sort Drivers.txt by racing number
