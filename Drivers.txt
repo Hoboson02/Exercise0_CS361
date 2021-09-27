@@ -1,0 +1,20 @@
+Fernando Alonso 14 Alpine
+Valtteri Bottas 77 Mercedes
+Pierre Gasly 10 AlphaTauri
+Antonio Giovinazzi 99 Alfa Romeo
+Lewis Hamilton 44 Mercedes
+Nicholas Latifi 6 Williams
+Charles Leclerc 16 Ferrari
+Nikita Mazepin 9 Haas
+Lando Norris 4 McLaren
+Esteban Ocon 31 Alpine
+Sergio Perez 11 Red Bull
+Kimi Raikkonen 7 Alfa Romeo
+Daniel Ricciardo 3 McLaren
+George Russell 63 Williams
+Carlos Sainz 55 Ferrari
+Mick Schumacher 47 Haas
+Yuki Sonoda 22 AlphaTauri
+Lance Stroll 18 Aston Martin
+Max Verstappen 33 Red Bull
+Sebastian Vettel 5 Aston Martin
