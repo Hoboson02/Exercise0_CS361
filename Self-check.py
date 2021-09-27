@@ -28,7 +28,7 @@ def last_key(driver):
 
 drivers.sort(key = last_key, reverse = False)
 # drivers.remove()
-print(drivers, '\n')
+print(*drivers, sep='\n')
 # list_drivers = open("Drivers.txt", "r")
 # drivers = list_drivers.read()
 # driver_list = drivers.split(',')
@@ -44,7 +44,7 @@ print("=============================== \n")
 def number_key(driver):
     return driver[2]
 drivers.sort(key = number_key, reverse = False)
-print(drivers)
+print(*drivers, sep='\n')
 # print (driver_number_sort)
 # sort Drivers.txt by last name
 # sort Drivers.txt by racing number
