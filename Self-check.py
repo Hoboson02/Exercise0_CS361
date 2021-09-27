@@ -1,16 +1,5 @@
-# list_drivers = open("Drivers.txt", "r")
-# def last_name(list_drivers):
-#     sorted_names = []
-
-#     for element in list_drivers:
-#         sorted_names.append(element.split())
-#     list_drivers = []
-
-#     for element in sorted(sorted_names, key = lambda x: x[-1]):
-#         list_drivers.append(' '.join(element))
-#     return list_drivers
-
-#     print('\n2021 F1 Drivers\n', '===============', last_name(list_drivers))
+# Name: Ryan Earl
+# This program takes the given list of drivers and arranges them, first by name, and then by driver number. Both lists are printed with their respective titles.
 drivers = [['Max', 'Verstapen', 33, 'Red Bull'], 
            ['Lewis', 'Hamilton', 44, 'Mercedes'],
            ['Valtteri', 'Bottas', 77, 'Mercedes'],
@@ -38,7 +27,8 @@ def last_key(driver):
     return driver[1]
 
 drivers.sort(key = last_key, reverse = False)
-print(drivers)
+# drivers.remove()
+print(drivers, '\n')
 # list_drivers = open("Drivers.txt", "r")
 # drivers = list_drivers.read()
 # driver_list = drivers.split(',')
